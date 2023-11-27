@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="main-section">
+        <div class="container">
+          <h1>Guess Random Number</h1>
+          <input
+            type="text"
+            name="guessfield"
+            id="guessfield"
+            autocomplete="off"
+          />
+          <button id="btn">Submit</button>
+        </div>
+        <div class="result">
+          <p>Previous Guess : <span id="prevguess"></span></p>
+          <p>Guess Remaining : <span id="guessremain">10</span></p>
+          <p id="output"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
